@@ -80,7 +80,7 @@ fun GreetingText(message: String, textOne: String, textTwo: String,modifier: Mod
 
 @Preview(
     showBackground = true,
-    showSystemUi = false
+    showSystemUi = true
 )
 @Composable
 fun MyFirstComposeAppPreview() {
