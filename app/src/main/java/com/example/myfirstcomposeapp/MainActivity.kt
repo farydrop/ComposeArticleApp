@@ -45,6 +45,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingText(message: String, textOne: String, textTwo: String,modifier: Modifier = Modifier) {
     Column(
+        modifier = modifier
     ) {
         val image = painterResource(id = R.drawable.bg_compose_background)
         Image(
